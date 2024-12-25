@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузка изображений в S3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="loader_images">
+            <h1>Загрузка изображения в S3</h1>
+            <!-- <input type="file" id="imageInput" accept="image/*" onchange="renderInputImage(this)"/> -->
+            <input type="file" id="imageInput" accept="image/*" onchange="uploadImage()"/>
+
+            <div class="form_wrapper">
+                <div class="form_upload">
+                    <form id="upload-form" action="/upload-to-bucket" method="post" enctype="multipart/form-data">
+                        <!-- <input type="file" name="file" accept="image/*" required onchange="previewImage(event)"> -->
+                        <h3>Отправить в бакет</h3>
+                        <input type="submit" value="Отправить">  
+                    </form>
+                </div>
+                <div class="form_recognize">
+                    <form id="recognize-form" action="/recognize-text" method="post" enctype="multipart/form-data">
+                        <!-- <input type="file" name="file" accept="image/*" required onchange="previewImage(event)"> -->
+                        <h3>Распознать с помощью OCR</h3>
+                        <input type="submit" value="Распознать">
+                    </form>
+                </div>
+            </div>
+
+            <div class="img_container">
+                <div class="img_input_container">
+                    <h2>Исходное изображение</h2>
+                    <div class="img_input_wrapper">
+                        
+                    </div>
+                </div>
+                <div class="img_output_container">
+                    <h2>Выходное изображение</h2>
+                    <div class="img_output_wrapper">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="recognized_txt_container">
+                <h3>Распознанный текст</h3>
+                <textarea id='recognized_txt' rows='4' cols='50'>
+                
+                </textarea>
+            </div>
+
+        </div>
+        <div class="buckets_managing">
+            <h1>Управление Бакетами</h1>
+
+            <h2>Список Buckets</h2>
+            <ul id="bucketList"></ul>
+
+            <h2>Создать Bucket</h2>
+            <form id="createBucketForm">
+                <input type="text" name="name" placeholder="Имя бакета" required>
+                <button type="submit">Создать</button>
+            </form>
+
+            <h2>Удалить Bucket</h2>
+            <form id="deleteBucketForm">
+                <input type="text" name="bucket" placeholder="Имя бакета" required>
+                <button type="submit">Удалить</button>
+            </form>
+
+            <h2>Работа с объектами в Bucket</h2>
+            <form id="objectForm">
+                <input type="text" name="bucket" placeholder="Имя бакета" required>
+                <input type="file" name="file">
+                <button type="submit" id="uploadButton">Загрузить файл</button>
+                <button type="button" id="updateButton">Обновить список </button>
+            </form>
+
+            <h3>Объекты в Bucket</h3>
+            <ul id="objectList"></ul>
+
+            <form id="deleteObjectForm">
+                <input type="text" name="bucket" placeholder="Имя бакета" required>
+                <input type="text" name="name" placeholder="Имя объекта" required>
+                <button type="submit">Удалить объект</button>
+                <button type="button" id="deleteAllButton">Удалить все объекты</button>
+            </form>
+        </div>
+    </div>
+</body>
+    <script src='static/js/script.js'></script>
+</html>

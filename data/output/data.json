@@ -1,0 +1,112 @@
+{
+    "result": {
+        "textAnnotation": {
+            "width": "1600",
+            "height": "1200",
+            "blocks": [
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": "1507",
+                                "y": "1181"
+                            },
+                            {
+                                "x": "1507",
+                                "y": "1192"
+                            },
+                            {
+                                "x": "1594",
+                                "y": "1192"
+                            },
+                            {
+                                "x": "1594",
+                                "y": "1181"
+                            }
+                        ]
+                    },
+                    "lines": [
+                        {
+                            "boundingBox": {
+                                "vertices": [
+                                    {
+                                        "x": "1507",
+                                        "y": "1181"
+                                    },
+                                    {
+                                        "x": "1507",
+                                        "y": "1192"
+                                    },
+                                    {
+                                        "x": "1594",
+                                        "y": "1192"
+                                    },
+                                    {
+                                        "x": "1594",
+                                        "y": "1181"
+                                    }
+                                ]
+                            },
+                            "text": "Обойки.Net",
+                            "words": [
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "1507",
+                                                "y": "1180"
+                                            },
+                                            {
+                                                "x": "1507",
+                                                "y": "1194"
+                                            },
+                                            {
+                                                "x": "1594",
+                                                "y": "1194"
+                                            },
+                                            {
+                                                "x": "1594",
+                                                "y": "1180"
+                                            }
+                                        ]
+                                    },
+                                    "text": "Обойки.Net",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "0",
+                                            "length": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "textSegments": [
+                                {
+                                    "startIndex": "0",
+                                    "length": "10"
+                                }
+                            ],
+                            "orientation": "ANGLE_0"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "languageCode": "ru"
+                        }
+                    ],
+                    "textSegments": [
+                        {
+                            "startIndex": "0",
+                            "length": "10"
+                        }
+                    ]
+                }
+            ],
+            "entities": [],
+            "tables": [],
+            "fullText": "Обойки.Net\n",
+            "rotate": "ANGLE_0"
+        },
+        "page": "0"
+    }
+}
