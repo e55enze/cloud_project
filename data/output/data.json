@@ -1,27 +1,27 @@
 {
     "result": {
         "textAnnotation": {
-            "width": "1600",
-            "height": "1200",
+            "width": "426",
+            "height": "240",
             "blocks": [
                 {
                     "boundingBox": {
                         "vertices": [
                             {
-                                "x": "1507",
-                                "y": "1181"
+                                "x": "163",
+                                "y": "84"
                             },
                             {
-                                "x": "1507",
-                                "y": "1192"
+                                "x": "163",
+                                "y": "91"
                             },
                             {
-                                "x": "1594",
-                                "y": "1192"
+                                "x": "255",
+                                "y": "91"
                             },
                             {
-                                "x": "1594",
-                                "y": "1181"
+                                "x": "255",
+                                "y": "84"
                             }
                         ]
                     },
@@ -30,52 +30,82 @@
                             "boundingBox": {
                                 "vertices": [
                                     {
-                                        "x": "1507",
-                                        "y": "1181"
+                                        "x": "163",
+                                        "y": "84"
                                     },
                                     {
-                                        "x": "1507",
-                                        "y": "1192"
+                                        "x": "163",
+                                        "y": "91"
                                     },
                                     {
-                                        "x": "1594",
-                                        "y": "1192"
+                                        "x": "255",
+                                        "y": "91"
                                     },
                                     {
-                                        "x": "1594",
-                                        "y": "1181"
+                                        "x": "255",
+                                        "y": "84"
                                     }
                                 ]
                             },
-                            "text": "Обойки.Net",
+                            "text": "#include <stdio.h>",
                             "words": [
                                 {
                                     "boundingBox": {
                                         "vertices": [
                                             {
-                                                "x": "1507",
-                                                "y": "1180"
+                                                "x": "163",
+                                                "y": "83"
                                             },
                                             {
-                                                "x": "1507",
-                                                "y": "1194"
+                                                "x": "163",
+                                                "y": "93"
                                             },
                                             {
-                                                "x": "1594",
-                                                "y": "1194"
+                                                "x": "207",
+                                                "y": "93"
                                             },
                                             {
-                                                "x": "1594",
-                                                "y": "1180"
+                                                "x": "207",
+                                                "y": "83"
                                             }
                                         ]
                                     },
-                                    "text": "Обойки.Net",
+                                    "text": "#include",
                                     "entityIndex": "-1",
                                     "textSegments": [
                                         {
                                             "startIndex": "0",
-                                            "length": "10"
+                                            "length": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "211",
+                                                "y": "83"
+                                            },
+                                            {
+                                                "x": "211",
+                                                "y": "93"
+                                            },
+                                            {
+                                                "x": "255",
+                                                "y": "93"
+                                            },
+                                            {
+                                                "x": "255",
+                                                "y": "83"
+                                            }
+                                        ]
+                                    },
+                                    "text": "<stdio.h>",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "9",
+                                            "length": "9"
                                         }
                                     ]
                                 }
@@ -83,7 +113,7 @@
                             "textSegments": [
                                 {
                                     "startIndex": "0",
-                                    "length": "10"
+                                    "length": "18"
                                 }
                             ],
                             "orientation": "ANGLE_0"
@@ -91,20 +121,431 @@
                     ],
                     "languages": [
                         {
-                            "languageCode": "ru"
+                            "languageCode": "en"
                         }
                     ],
                     "textSegments": [
                         {
                             "startIndex": "0",
-                            "length": "10"
+                            "length": "18"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": "164",
+                                "y": "108"
+                            },
+                            {
+                                "x": "164",
+                                "y": "117"
+                            },
+                            {
+                                "x": "222",
+                                "y": "117"
+                            },
+                            {
+                                "x": "222",
+                                "y": "108"
+                            }
+                        ]
+                    },
+                    "lines": [
+                        {
+                            "boundingBox": {
+                                "vertices": [
+                                    {
+                                        "x": "164",
+                                        "y": "108"
+                                    },
+                                    {
+                                        "x": "164",
+                                        "y": "117"
+                                    },
+                                    {
+                                        "x": "222",
+                                        "y": "117"
+                                    },
+                                    {
+                                        "x": "222",
+                                        "y": "108"
+                                    }
+                                ]
+                            },
+                            "text": "int main() {",
+                            "words": [
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "164",
+                                                "y": "108"
+                                            },
+                                            {
+                                                "x": "164",
+                                                "y": "119"
+                                            },
+                                            {
+                                                "x": "181",
+                                                "y": "119"
+                                            },
+                                            {
+                                                "x": "181",
+                                                "y": "108"
+                                            }
+                                        ]
+                                    },
+                                    "text": "int",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "19",
+                                            "length": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "183",
+                                                "y": "108"
+                                            },
+                                            {
+                                                "x": "183",
+                                                "y": "118"
+                                            },
+                                            {
+                                                "x": "214",
+                                                "y": "118"
+                                            },
+                                            {
+                                                "x": "214",
+                                                "y": "108"
+                                            }
+                                        ]
+                                    },
+                                    "text": "main()",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "23",
+                                            "length": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "217",
+                                                "y": "108"
+                                            },
+                                            {
+                                                "x": "217",
+                                                "y": "118"
+                                            },
+                                            {
+                                                "x": "222",
+                                                "y": "118"
+                                            },
+                                            {
+                                                "x": "222",
+                                                "y": "108"
+                                            }
+                                        ]
+                                    },
+                                    "text": "{",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "30",
+                                            "length": "1"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "textSegments": [
+                                {
+                                    "startIndex": "19",
+                                    "length": "12"
+                                }
+                            ],
+                            "orientation": "ANGLE_0"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "languageCode": "en"
+                        }
+                    ],
+                    "textSegments": [
+                        {
+                            "startIndex": "19",
+                            "length": "12"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": "177",
+                                "y": "119"
+                            },
+                            {
+                                "x": "177",
+                                "y": "129"
+                            },
+                            {
+                                "x": "285",
+                                "y": "129"
+                            },
+                            {
+                                "x": "285",
+                                "y": "119"
+                            }
+                        ]
+                    },
+                    "lines": [
+                        {
+                            "boundingBox": {
+                                "vertices": [
+                                    {
+                                        "x": "177",
+                                        "y": "119"
+                                    },
+                                    {
+                                        "x": "177",
+                                        "y": "129"
+                                    },
+                                    {
+                                        "x": "285",
+                                        "y": "129"
+                                    },
+                                    {
+                                        "x": "285",
+                                        "y": "119"
+                                    }
+                                ]
+                            },
+                            "text": "printf(\"Hello World\");",
+                            "words": [
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "177",
+                                                "y": "119"
+                                            },
+                                            {
+                                                "x": "177",
+                                                "y": "131"
+                                            },
+                                            {
+                                                "x": "236",
+                                                "y": "131"
+                                            },
+                                            {
+                                                "x": "236",
+                                                "y": "119"
+                                            }
+                                        ]
+                                    },
+                                    "text": "printf(\"Hello",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "32",
+                                            "length": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "239",
+                                                "y": "118"
+                                            },
+                                            {
+                                                "x": "239",
+                                                "y": "130"
+                                            },
+                                            {
+                                                "x": "285",
+                                                "y": "130"
+                                            },
+                                            {
+                                                "x": "285",
+                                                "y": "118"
+                                            }
+                                        ]
+                                    },
+                                    "text": "World\");",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "46",
+                                            "length": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "textSegments": [
+                                {
+                                    "startIndex": "32",
+                                    "length": "22"
+                                }
+                            ],
+                            "orientation": "ANGLE_0"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "languageCode": "en"
+                        }
+                    ],
+                    "textSegments": [
+                        {
+                            "startIndex": "32",
+                            "length": "22"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": "178",
+                                "y": "133"
+                            },
+                            {
+                                "x": "178",
+                                "y": "142"
+                            },
+                            {
+                                "x": "224",
+                                "y": "142"
+                            },
+                            {
+                                "x": "224",
+                                "y": "133"
+                            }
+                        ]
+                    },
+                    "lines": [
+                        {
+                            "boundingBox": {
+                                "vertices": [
+                                    {
+                                        "x": "178",
+                                        "y": "133"
+                                    },
+                                    {
+                                        "x": "178",
+                                        "y": "142"
+                                    },
+                                    {
+                                        "x": "224",
+                                        "y": "142"
+                                    },
+                                    {
+                                        "x": "224",
+                                        "y": "133"
+                                    }
+                                ]
+                            },
+                            "text": "return 0;",
+                            "words": [
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "178",
+                                                "y": "133"
+                                            },
+                                            {
+                                                "x": "178",
+                                                "y": "143"
+                                            },
+                                            {
+                                                "x": "207",
+                                                "y": "143"
+                                            },
+                                            {
+                                                "x": "207",
+                                                "y": "133"
+                                            }
+                                        ]
+                                    },
+                                    "text": "return",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "55",
+                                            "length": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "boundingBox": {
+                                        "vertices": [
+                                            {
+                                                "x": "212",
+                                                "y": "133"
+                                            },
+                                            {
+                                                "x": "212",
+                                                "y": "143"
+                                            },
+                                            {
+                                                "x": "224",
+                                                "y": "143"
+                                            },
+                                            {
+                                                "x": "224",
+                                                "y": "133"
+                                            }
+                                        ]
+                                    },
+                                    "text": "0;",
+                                    "entityIndex": "-1",
+                                    "textSegments": [
+                                        {
+                                            "startIndex": "62",
+                                            "length": "2"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "textSegments": [
+                                {
+                                    "startIndex": "55",
+                                    "length": "9"
+                                }
+                            ],
+                            "orientation": "ANGLE_0"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "languageCode": "en"
+                        }
+                    ],
+                    "textSegments": [
+                        {
+                            "startIndex": "55",
+                            "length": "9"
                         }
                     ]
                 }
             ],
             "entities": [],
             "tables": [],
-            "fullText": "Обойки.Net\n",
+            "fullText": "#include <stdio.h>\nint main() {\nprintf(\"Hello World\");\nreturn 0;\n",
             "rotate": "ANGLE_0"
         },
         "page": "0"
